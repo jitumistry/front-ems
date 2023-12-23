@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+.full-screen {
+  height: 100vh;
+}
+.full-screen h3 {
+  color: #fff;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.ant-layout-footer {
+  background-color: #fff;
+  border-top: 1px solid gray;
+}
+.ant-layout-content {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 7px;
+}
+.ant-layout-header {
+  border-bottom: 1px solid gray;
+}
+.ant-picker {
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* <div className='col-4 dyss'>
+                    <div className='mb-2'>
+                      <p>Emp.Code</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mb-2'>
+                      <p>Emp.Level</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mb-2'>
+                      <p>Executive Level</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mb-2'>
+                      <p>Department Code</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mb-2'>
+                      <p>Department Code</p>
+                      <Input className='mb-2' />
+                    </div>
+                  </div>
+                  <div className='col-4 dyss'>
+                    <div className='mb-2'>
+                      <p>Emp.Name</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mb-2'>
+                      <p>Emp.Department</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mb-2'>
+                      <p>Date</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mb-2'>
+                      <p>Project Code</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mb-2'>
+                      <p>Product Code</p>
+                      <Input className='mb-2' />
+                    </div>
+                  </div>
+                  <div className='col-4 dyss'>
+                    <div className='mb-2'>
+                      <p>Emp.Role</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mb-2'>
+                      <p>ETS Direct Manager/Supervisor</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mb-2'>
+                      <p>Hours Worked</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mb-2'>
+                      <p>Activity Code</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mb-2'>
+                      <p>Project Description</p>
+                      <Input className='mb-2' />
+                    </div>
+                    <div className='mt-2 float-end'>
+                      <Button type="primary">Submit</Button>
+                    </div>
+  </div> */
+  /*<table class="table">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+  </div>*/
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  /*
+
+  <Routes>
+                        <Route path='/' element={<Dashbord />} />
+                        <Route path='/timesheet' element={<Time />} />
+                        <Route path='/applyleave' element={<ApplyLeave />} />
+                        <Route path='/leavestatus' element={<LeaveStatus />} />
+                    </Routes>  
+                    
+                    
+                    
+                    <Content
+                    style={{
+                        minHeight: 280,
+                        background: colorBgContainer,
+                    }}
+                >
+                    <Outlet />
+                </Content>
+                
+                
+                */

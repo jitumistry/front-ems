@@ -1,0 +1,73 @@
+.loginform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loginform h3 {
+    text-align: center;
+}
+
+.loginform button {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.cover img {
+    width: 100%;
+    height: 100%;
+}
+
+.full {
+    position: absolute;
+    bottom: 25%;
+    left: 30%;
+}
+
+.full h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 62px;
+}
+
+.box {
+    margin: 10px;
+    padding: 10px;
+    height: 67vh;
+    width: 99%;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    overflow: auto;
+}
+
+.box form p {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 720px) {
+    .full h1 {
+        font-weight: 500;
+        font-size: 32px;
+    }
+
+    .full {
+        left: 50%;
+    }
+
+    .box {
+        height: 67vh;
+    }
+}
